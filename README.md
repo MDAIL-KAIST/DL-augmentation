@@ -23,10 +23,9 @@ To use this data generator, please download the GENFIRE package.
 ```
 cd ./DL_data_generator
 ```
-1. DLDGen_main.m for crystal structure. DLDGen_main_amorphous for amorphous structure.
-2. Set the folder location, file name, and some parameters for generating atomic model.
-3. run ./DL
-
+1. DLDGen_main.m for crystal structure. DLDGen_main_amorphous.m for amorphous structure.
+2. Set a folder location, a file name, and some parameters for generating atomic model.
+3. run DLDGen_main.m or DLDGen_main_amorphous.m
 
 
 ## DL augmentation (python, pytorch package)
