@@ -1,0 +1,35 @@
+%%  refineControl %%
+
+%% Control function for running angular refinements
+%%  refinement_pars    - parameters produced using getRefinementPars
+%%  num_refinements    - integer number of refinement loops to run 
+
+%%outputs:
+%%  refine_results      - output structure containing refinement parameters and resulting metrics
+
+%% Author: Alan (AJ) Pryor, Jr.
+%% Jianwei (John) Miao Coherent Imaging Group
+%% University of California, Los Angeles
+%% Copyright (c) 2015-2016. All Rights Reserved.
+
+function refine_results = refineControl_GENFIREClass(obj, refinement_pars, num_refinements)
+for refine_num = 1:num_refinements
+    fprintf('Refinement iteration #%d\n',refine_num)
+    refine_results = refineOrientation(refinement_pars); 
+    [projections, euler_angles] = updateProjections(refinement_pars.projections,refine_results);
+    euler_angles(:,2) = euler_angles(:,2) - euler_angles(1,2);
+    
+    
+    save(refinement_pars.pj_filename,'projections')
+    save(refinement_pars.angle_filename,'euler_angles')
+    
+    
+    GENFIRE_Main % the order of things in this function is terrible, but I'll fix it later
+    reconstruction = importdata(refinement_pars.recon_filename);
+    reconstruction = reconstruction.reconstruction;
+    refinement_pars = getRefinementPars(reconstruction,projections,euler_angles, ... 
+    'ang_search_range',refinement_pars.ang_search_range,'compare_func',refinement_pars.compare_func, ...
+    'model_filename',refinement_pars.model_filename,'pj_filename',refinement_pars.pj_filename,'angle_filename',refinement_pars.angle_filename, ...
+    'support_filename',refinement_pars.support_filename,'recon_filename',refinement_pars.recon_filename);
+end
+end
