@@ -70,6 +70,6 @@ Before running DL augmentation, pre-processing for input data is reconmended for
 cd ./Preproccesing_tomogram_for_DL_aug
 ```
 
-  ** run Preprocessing_for_DL_aug_input.m
+    * run Preprocessing_for_DL_aug_input.m
 
 
