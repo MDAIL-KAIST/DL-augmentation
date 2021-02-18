@@ -20,9 +20,10 @@ To use this data generator, please download the GENFIRE package.
 
 
 ### ** Test **
-1. d
-2. Set the folder location, file name, and some parameters for geneerating atomic model.
-3. run ./
+``` cd ./DL_data_generator ```
+1. DLDGen_main.m for crystal structure. DLDGen_main_amorphous for amorphous structure.
+2. Set the folder location, file name, and some parameters for generating atomic model.
+3. run ./DL
 
 
 
