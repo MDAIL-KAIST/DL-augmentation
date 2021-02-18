@@ -82,6 +82,5 @@ DLDgen.GENFIRE.vector3 = [1 0 0];
 %% running code
 DLDgen.MAKEDIR(); % generate folder
 DLDgen = DLDgen.GEN_target_data(); % generate target data (Ground truth) (run first)
-%%
 DLDgen = DLDgen.GEN_input_data(); % generate input data (based on Ground truth)
 
