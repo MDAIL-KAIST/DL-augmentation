@@ -17,6 +17,7 @@ DL data generator consists of generating input/target data.
 - GENFIRE (reconstruction algorithm)
 
 To use this data generator, please download the GENFIRE package.
+(https://www.physics.ucla.edu/research/imaging/dataSoftware.html)
 
 
 
