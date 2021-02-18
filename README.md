@@ -3,7 +3,7 @@
 DL augmentation package is implemented for neural network-assisted atomic electron tomography.
 This package has two parts; data generator codes (written by matlab) & deep learning codes (written by python, pytorch package).
 
-Devoloper: Juhyeok Lee
+Devoloper: Juhyeok Lee and Yongsoo Yang
 
 For the detail, please see the paper: J. Lee, C. Jeong and Y. Yang, “Single-atom level determination of 3-dimensional surface atomic structure via neural network-assisted atomic electron tomography”, Nature Communications (2021).
 
@@ -63,8 +63,11 @@ cd ./DL_augmentation
 * Please prepare input data (its size should be equal or smaller compared to training input/target data size).
 Before running DL augmentation, pre-processing for input data is reconmended for matching voxels size (required) and real interpolation (optional) to reduce noise. 
 
-Pre-processing
+* Pre-processing
 (If voxel size of input data is equal to training input data, this proccess can be skipped.)
+```
+cd ./Preproccesing_tomogram_for_DL_aug
+```
 
 
 
