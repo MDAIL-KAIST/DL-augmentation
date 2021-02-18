@@ -65,11 +65,8 @@ Before running DL augmentation, pre-processing for input data is reconmended for
 
 * Pre-processing (matlab)
 (If voxel size of input data is equal to training input data, this proccess can be skipped.)
+    * run ./Preproccesing_tomogram_for_DL_aug/Preprocessing_for_DL_aug_input
 
 ```
 cd ./Preproccesing_tomogram_for_DL_aug
 ```
-
-
-
-    - run Preprocessing_for_DL_aug_input.m
