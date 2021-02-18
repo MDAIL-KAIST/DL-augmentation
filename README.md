@@ -49,7 +49,7 @@ DL augmentation takes input/target data as only mat file (in this version).
 ```
 cd ./DL_augmentation
 ```
-** For training **
+**For training**
 
 
 
