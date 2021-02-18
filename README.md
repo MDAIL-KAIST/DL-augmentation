@@ -13,8 +13,8 @@ For the detail, please see the paper: J. Lee, C. Jeong and Y. Yang, “Single-at
 ## Data generator for DLaugmentation (matlab)
 DL data generator consists of generating input/target data.
 
-### Requirement
-- GENFIRE
+### **Requirement**
+- GENFIRE (reconstruction algorithm)
 
 To use this data generator, please download the GENFIRE package.
 
