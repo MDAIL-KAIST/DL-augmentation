@@ -11,13 +11,18 @@ For the detail, please see the paper: J. Lee, C. Jeong and Y. Yang, “Single-at
 ## Data generator for DLaugmentation (matlab)
 DL data generator consists of generating input/target data.
 
-### **Requirements**
+### ** Requirements **
 - matlab (>= 2017a)
 - GENFIRE (reconstruction algorithm)
 
 To use this data generator, please download the GENFIRE package.
 (https://www.physics.ucla.edu/research/imaging/dataSoftware.html)
 
+
+### ** Test **
+1. d
+2. Set the folder location, file name, and some parameters for geneerating atomic model.
+3. run ./
 
 
 
