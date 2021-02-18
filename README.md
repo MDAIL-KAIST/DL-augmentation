@@ -67,10 +67,9 @@ Before running DL augmentation, pre-processing for input data is reconmended for
     * run ./Preproccesing_tomogram_for_DL_aug/Preprocessing_for_DL_aug_input.m
 
 * run DL_augmentation
-
-1. Choose run_DL_augmentation_Pt.py or run_DL_augmentation_Pt.ipynb for jupyter notebook.
-2. Set a folder location, a file name, and saved model parameter path.
-3. Run run_DL_augmentation_Pt.py.
+   1. Choose run_DL_augmentation_Pt.py or run_DL_augmentation_Pt.ipynb for jupyter notebook.
+   2. Set a folder location, a file name, and saved model parameter path.
+   3. Run run_DL_augmentation_Pt.py.
 
 ### Test for DL_augmentation
 ```
