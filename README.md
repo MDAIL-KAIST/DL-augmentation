@@ -39,7 +39,7 @@ DL augmentation
 ### Reconmended environment
 - Linux
 - CUDA (we tested 10.1)
-- GPU memory (>= 4 GB for 144^3 voxel size, >= 8 GB for 256^3 voxel size) (if used)
+- GPU memory (>= 4 GB for 144<sup>3</sup> voxel size, >= 8 GB for 256^3 voxel size) (if used)
 - conda environment
 
 
