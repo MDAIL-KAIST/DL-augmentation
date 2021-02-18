@@ -32,8 +32,13 @@ cd ./DL_data_generator
 DL augmentation 
 
 ### Requirements
-- matlab (>= 2017a)
-- GENFIRE (reconstruction algorithm)
+- pytorch (>=1.1)
+- 
+
+### Reconmended environment
+- Linux
+- CUDA (we tested 10.1)
+- GPU memory (>= 4 GB for 144 voxel size, 8>= 8 GB for 256 voxel size) (if used)
 
 
 ### How to start
