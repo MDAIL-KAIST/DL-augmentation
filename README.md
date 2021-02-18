@@ -28,23 +28,28 @@ cd ./DL_data_generator
 3. Run DLDGen_main.m or DLDGen_main_amorphous.m
 
 
+
 ## DL augmentation (python, pytorch package)
-DL augmentation 
+DL augmentation takes input/target data as only mat file (in this version).
+
 
 ### Requirements
-- pytorch (>=1.1) (we tested 1.1, 1.2, 1.3)
+- pytorch (>=1.1) (1.1, 1.2, 1.3 versions were tested)
 - numpy
 - scipy
 
 ### Reconmended environment
 - Linux
-- CUDA (we tested 10.1)
-- GPU memory (>= 4 GB for 144<sup>3</sup> voxel size, >= 8 GB for 256^3 voxel size) (if used)
+- CUDA (10.1 was tested)
+- GPU memory (>= 4 GB for 144<sup>3</sup> voxel size, >= 8 GB for 256<sup>3</sup> voxel size) (if used)
 - conda environment
 
 
 ### How to start
+```
+cd ./DL_augmentation
+```
+** For training **
 
-```
-conda install test
-```
+
+
