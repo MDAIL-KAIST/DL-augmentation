@@ -8,6 +8,7 @@ Devoloper: Juhyeok Lee
 For the detail, please see the paper: J. Lee, C. Jeong and Y. Yang, “Single-atom level determination of 3-dimensional surface atomic structure via neural network-assisted atomic electron tomography”, Nature Communications (2021).
 
 <br/>
+
 ## Data generator for DL augmentation (matlab)
 DL data generator consists of generating input/target data.
 
@@ -29,6 +30,7 @@ cd ./DL_data_generator
 
 
 <br/>
+
 ## DL augmentation (python, pytorch package)
 DL augmentation takes input/target data as only mat file (in this version).
 
