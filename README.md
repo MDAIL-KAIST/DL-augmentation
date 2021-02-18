@@ -51,14 +51,14 @@ DL augmentation takes input/target data as only mat file (in this version).
 ```
 cd ./DL_augmentation
 ```
-**For training**
+####For training
 
 1. Choose train_DL_augmentation_Pt.py or train_DL_augmentation_Pt.ipynb for jupyter notebook.
 2. Set a folder location, a file name, and some parameters for training DL augmentation.
 3. Run train_DL_augmentation_Pt.py.
 
 
-**For running**
+####For running
 
   Please prepare input data (its size should be equal or smaller compared to training input/target data size).
   Before running DL augmentation, pre-processing for input data is reconmended for matching voxels size (required) and real interpolation (optional) to reduce noise. 
