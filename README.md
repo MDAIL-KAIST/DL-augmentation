@@ -63,11 +63,11 @@ cd ./DL_augmentation
 * Please prepare input data (its size should be equal or smaller compared to training input/target data size).
 Before running DL augmentation, pre-processing for input data is reconmended for matching voxels size (required) and real interpolation (optional) to reduce noise. 
 
-* Pre-processing
+* Pre-processing (matlab)
 (If voxel size of input data is equal to training input data, this proccess can be skipped.)
 ```
 cd ./Preproccesing_tomogram_for_DL_aug
 ```
-
+1. run Preprocessing_for_DL_aug_input.m.
 
 
