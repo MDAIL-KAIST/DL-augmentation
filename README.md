@@ -69,7 +69,11 @@ Before running DL augmentation, pre-processing for input data is reconmended for
 
 * running DL_augmentation
 
-1. Choose train_DL_augmentation_Pt.py or train_DL_augmentation_Pt.ipynb for jupyter notebook.
-2. Set a folder location, a file name, and some parameters for training DL augmentation.
-3. Run train_DL_augmentation_Pt.py.
+1. Choose run_DL_augmentation_Pt.py or run_DL_augmentation_Pt.ipynb for jupyter notebook.
+2. Set a folder location, a file name, and saved model parameter path.
+3. Run run_DL_augmentation_Pt.py.
 
+### Test for DL_augmentation
+```
+python ./DL_augmentation/run_DL_augmentation_Pt.py
+```
