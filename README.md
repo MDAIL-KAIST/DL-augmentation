@@ -14,7 +14,7 @@ DL data generator consists of generating input/target data.
 - matlab (>= 2017a)
 - GENFIRE (reconstruction algorithm)
 
-Our modified GENFIRE alogorithm for DL-augmentation is also uploaded.
+A modified GENFIRE alogorithm for this data generator is also uploaded.
 The original GENFIRE URL is below.
 (https://www.physics.ucla.edu/research/imaging/dataSoftware.html)
 
