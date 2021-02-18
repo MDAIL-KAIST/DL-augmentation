@@ -60,7 +60,7 @@ cd ./DL_augmentation
 
 #### For running
 
-+Please prepare input data (its size should be equal or smaller compared to training input/target data size).
+*Please prepare input data (its size should be equal or smaller compared to training input/target data size).
 Before running DL augmentation, pre-processing for input data is reconmended for matching voxels size (required) and real interpolation (optional) to reduce noise. 
 
 Pre-processing
