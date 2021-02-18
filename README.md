@@ -32,13 +32,15 @@ cd ./DL_data_generator
 DL augmentation 
 
 ### Requirements
-- pytorch (>=1.1)
-- 
+- pytorch (>=1.1) (we tested 1.1, 1.2, 1.3)
+- numpy
+- scipy
 
 ### Reconmended environment
 - Linux
 - CUDA (we tested 10.1)
-- GPU memory (>= 4 GB for 144 voxel size, 8>= 8 GB for 256 voxel size) (if used)
+- GPU memory (>= 4 GB for 144^3 voxel size, >= 8 GB for 256^3 voxel size) (if used)
+- conda environment
 
 
 ### How to start
