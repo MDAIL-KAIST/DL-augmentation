@@ -65,7 +65,7 @@ Before running DL augmentation, pre-processing for input data is reconmended for
 (If voxel size of input data is equal to training input data, this proccess can be skipped.)
     * run ./Preproccesing_tomogram_for_DL_aug/Preprocessing_for_DL_aug_input.m
 
-* running DL_augmentation
+* run DL_augmentation
 
 1. Choose run_DL_augmentation_Pt.py or run_DL_augmentation_Pt.ipynb for jupyter notebook.
 2. Set a folder location, a file name, and saved model parameter path.
