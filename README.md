@@ -8,7 +8,7 @@ For the detail, please see the paper: J. Lee, C. Jeong and Y. Yang, “Single-at
 <br/>
 
 ## Data generator for DL augmentation (matlab)
-DL data generator consists of generating input/target data.
+DL data generator is a package for generating input/target data for DL augmentation.
 
 ### Requirements
 - matlab (>= 2017a)
