@@ -6,9 +6,6 @@
 # Y.Yang, Multi-Dimensional Atomic Imaging Lab, KAIST
 # 
 # DL augmentation code
-# 
-# If you use the DL augmentation or related materials, we would appreciate citation to the following paper:
-# J. Lee, C. Jeong and Y. Yang, “Single-atom level determination of 3-dimensional surface atomic structure via neural network-assisted atomic electron tomography”, Nature Communications (2021)
 
 
 import torch
