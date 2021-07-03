@@ -103,16 +103,16 @@ for i=Number_data_start:1:Number_data_final
     %%%% 3d vol to 2d images
     Car_Projs = zeros(size(Vol,1),size(Vol,2),length(anglelist));
     
-    Vol_k=my_fft(Vol);
+    %Vol_k=my_fft(Vol);
     j=1;
     for angle = anglelist
         theta = angle; % input
-        [Car_Projs(:,:,j),~] = calculate3Dprojection_interp_general(Vol_k,phi,theta,psi,vec1,vec2,vec3);
-        %Car_Projs(:,:,j) = Func_calculate3Dprojection_car(Vol,phi,theta,psi,vec1,vec2,vec3);
+        %[Car_Projs(:,:,j),~] = calculate3Dprojection_interp_general(Vol_k,phi,theta,psi,vec1,vec2,vec3);
+        Car_Projs(:,:,j) = Func_calculate3Dprojection_car(Vol,phi,theta,psi,vec1,vec2,vec3);
         j = j+1;
     end
     Car_Projs(Car_Projs<0) = 0;
-    clear Vol_k
+    %clear Vol_k
     GenTime = toc;
     GenTime = round(10*GenTime)./10;
     fprintf('Generating ideal tilt series has been completed in %.12g seconds.\n\n',GenTime);
