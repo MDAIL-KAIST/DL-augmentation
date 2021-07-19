@@ -38,7 +38,7 @@ DL augmentation takes input/target data as only mat file (in this version).
 
 
 ### Requirements
-- pytorch (>=1.1) (1.1, 1.2, 1.3 versions were tested)
+- pytorch (>=1.1) (1.1, 1.2, 1.3, 1.4 versions were tested)
 - numpy
 - scipy
 
