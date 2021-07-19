@@ -1,7 +1,7 @@
 # DL augmentation package
 
 DL augmentation package is implemented for neural network-assisted atomic electron tomography.
-This package has two parts; data generator codes (written by matlab) & deep learning codes (written by python, pytorch package).
+This package has two parts; data generator codes (written in matlab) & deep learning codes (written in python, pytorch package).
 
 For the detail, please see the paper: J. Lee, C. Jeong and Y. Yang, “Single-atom level determination of 3-dimensional surface atomic structure via neural network-assisted atomic electron tomography”, *Nature Communications* (2021).
 
