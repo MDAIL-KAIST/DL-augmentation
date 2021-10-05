@@ -55,6 +55,14 @@ DLDgen.input_Atomnumbers = DLDgen.Atomnumbers;
 DLDgen.input_CropHalfWidth = 8; % crop boxsize for generating gaussian function
 DLDgen.input_Poisson_noise = 1; % Poisson noise on/off     
 
+% Projection option
+DLDgen.input_Projs_method = 2; % 1:fft, 2:real
+DLDgen.input_Projs_GPU = 0; % 1: on, 0: off
+
+% normalize
+DLDgen.input_Vol_normalize_YN = 1; % on/off  
+DLDgen.input_Vol_normalize_atomtype = 2; % normalizing using 2nd atom
+
 % GENFIRE parameter (Reconstruction)
 DLDgen.GENFIRE.numIterations = 100; % number of iterations
 DLDgen.GENFIRE.oversamplingRatio = 2; 
@@ -68,6 +76,7 @@ DLDgen.GENFIRE.constraintSupport = 1;
 %DLDgen.GENFIRE.CTFThrowOutThreshhold = 0;
 %DLDgen.GENFIRE.calculate_Rfree = 0; % flag for calculation of Rfree
 %DLDgen.GENFIRE.DFT_doGPU = 0; % flag for using GPU for gridding
+%DLDgen.GENFIRE.REC_doGPU = 0; % flag for using GPU for reconstruction
 %DLDgen.GENFIRE.vector1 = [0 0 1];
 %DLDgen.GENFIRE.vector2 = [0 1 0];
 DLDgen.GENFIRE.vector3 = [1 0 0];
