@@ -288,7 +288,7 @@ for i=Number_data_start:1:Number_data_final
             intensity_3x3(j) = sum(box_3x3(:));
         end
 
-        normalize_factor = nanmean(intensity_3x3)/(3^3);
+        normalize_factor = nanmean(intensity_3x3(normalize_atomtype_index))/(3^3);
         clear Padded_Vol
 
         % normalized volume for input data
