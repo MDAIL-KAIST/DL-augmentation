@@ -18,7 +18,7 @@ The original GENFIRE URL is below.
 
 (https://www.physics.ucla.edu/research/imaging/dataSoftware.html)
 
-The GENFIRE algorithm is modified to link this DL data generator easily.
+The GENFIRE algorithm is modified to link this DL data generator easily (GPU accelerated vesion).
 The modified GENFIRE alogorithm for this data generator is also uploaded and recommended.
 
 
