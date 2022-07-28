@@ -114,7 +114,7 @@ for i=Number_data_start:1:Number_data_final
         GoodAtomInd = find(RandVol(Ind)>0);
         
         new_rand_coordinate = new_rand_coordinate(:,GoodAtomInd);
-        new_rand_atomtype = new_rand_atomtype(:,GoodAtomInd);
+        new_rand_atomtype = new_rand_atomtype(GoodAtomInd);
         
     else
         Norms = sqrt(sum(f_pos.^2,1));
@@ -182,7 +182,7 @@ for i=Number_data_start:1:Number_data_final
 
     atomlist=find(new_rand_atomtype~=0);
     new_rand_coordinate=new_rand_coordinate(:,atomlist);
-    new_rand_atomtype=atomtype(atomlist);
+    new_rand_atomtype=new_rand_atomtype(atomlist);
     
     if Random_shuffling_atomtype==1
         new_rand_atomtype=new_rand_atomtype(randperm(length(new_rand_atomtype)));
